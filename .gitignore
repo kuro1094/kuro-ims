@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/target/
+
+# Build outputs
+dist/
+*.jar
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+nohup.out
+
+# Environment
+.env
+*.local
+
+# Temp files
+*.tmp
+*.temp
+backend/src/main/resources/application-local.yml
