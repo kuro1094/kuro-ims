@@ -106,7 +106,61 @@ Visit http://localhost:5173 , Vite has configured `/api` proxy to backend.
 
 ## 截图 | Screenshots
 
-> 待添加 | To be added
+### 3D 园区主视图 | 3D Park Overview
+
+实时渲染的等距斜 45° 鸟瞰园区，包含 4 座多跨连体钢结构仓库、行政办公楼、生产车间、巡逻车与巡检保安动态展示。
+
+![3D Park Overview](docs/screenshots/home.png)
+
+---
+
+### 资产详情面板 | Asset Detail Panel
+
+点击任意仓库/车辆/叉车，右侧弹出毛玻璃详情卡片，展示实时运营数据与状态。
+
+![Asset Detail](docs/screenshots/detail.png)
+
+---
+
+### 后台管理 · 数据表格 | Admin · Data Tables
+
+统一的 CRUD 后台，支持仓库、车辆、叉车、人员、巡逻车、保安等全量资产管理。
+
+![Admin Panel](docs/screenshots/admin.png)
+
+---
+
+### 地图编辑器 | Map Editor
+
+2D SVG 园区地图编辑器，支持拖拽放置建筑、编辑属性、实时同步到 3D 场景。
+
+![Map Editor](docs/screenshots/map-editor.png)
+
+---
+
+### 巡逻车管理 | Patrol Vehicle Management
+
+园区巡逻车实时监控与调度，支持状态、电量、路线管理。
+
+![Patrol Cars](docs/screenshots/patrol.png)
+
+---
+
+### 巡检保安管理 | Security Guard Management
+
+巡检保安定位器追踪，实时展示巡检路线与负责区域。
+
+![Guards](docs/screenshots/guard.png)
+
+---
+
+### 核心亮点 | Key Highlights
+
+- **真实内凹门洞**：仓库墙体错位形成真实凹槽，内含托盘纸箱货物
+- **动态呼吸灯效**：巡逻车红蓝爆闪灯 + 保安定位器青色呼吸光点
+- **数据指纹防闪烁**：轮询时内容无变化跳过重建，避免画面闪烁
+- **中英双语**：界面与 3D 场景标签实时切换，localStorage 持久化
+- **轻量化低模**：低多边形圆润资产，柔和软阴影 + 漫射天光
 
 ## 许可证 | License
 
